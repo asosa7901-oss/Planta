@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* por si querés menú o texto arriba/abajo */
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background: 
+    linear-gradient(to top, #000000b3, #ffcc3399),
+    url(https://agrawdata.com/wp-content/uploads/2024/03/variedades-de-girasol-mas-productivas.webp) center/cover no-repeat;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.carta{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0px 20px #000;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+.header{
+    background-color: #fc1;
+    height: 40px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -20px;
+    
+}
+.nombre{
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+.job{
+    color: #444;
+    margin-bottom: 15px;
+}
+.botones{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background: #fd2;
+    color: #000;
+    padding: 3px 25px;
+    border-radius: 20px;
+    text-decoration:none;
+    font-size: 16px;
+    transition: 0.5s;
+    margin: 5px;
+}
+.btn:hover{
+    background: #fea11c;
+    box-shadow: 0 4px 8px;
+    box-shadow: #000;
+}
+.mensaje {
+    font-size: 30px;    
+    color: #000;
+    text-shadow: 2px 2px 5px #ec3;
+    margin-top: 20px;
+}
+body::before {
+    animation: moverFondo 30s ease-in-out infinite alternate;
+}
+
+@keyframes moverFondo {
+    from { background-position: center center; }
+    to { background-position: center bottom; }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-hadow: 0px 0px 20px
+}
+
+nav li {
+    display: inline-block;
+    box-shadow: 0 0 30px #f0a00a;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none; 
+    color: #222;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 1.5;
+
+}
+
+nav a:hover {
+    background-color: #fd1;
+    transition: 0.5s;
+    transform: scale(1.15);
+}
+
+
+
