@@ -84,7 +84,7 @@ body::before {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 3px;
     display: inline-block;
     margin-top: 20px;
     background-color: transparent;
@@ -101,8 +101,8 @@ nav li {
 
 nav a {
     display: block;
-    padding: 5px 10px;
-    margin: 3px;
+    padding: 5px 15px;
+    margin: 2px;
     text-decoration: none; 
     color: #222;
     font-size: 18px;
